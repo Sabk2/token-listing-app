@@ -1,0 +1,25 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Expand to full width */
+    height: 1.5cm; /* Update the height as needed */
+    background-color: transparent;
+    border: 1px solid white; /* Add a white outline */
+    border-radius: 15px; /* Rounded edges */
+    padding: 0.2cm 0.5cm; /* Padding for text and search icon */
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+  }
+  
+  .search-icon {
+    margin-left: 0.5cm; /* Spacing between input and search icon */
+    color: white;
+    cursor: pointer;
+  }
+  
